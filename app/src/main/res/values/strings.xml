@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DrawingApp</string>
+    <string name="brush">Brush</string>
+    <string name="download">Download</string>
+    <string name="circle">Circle</string>
+    <string name="triangle">Triangle</string>
+    <string name="square">Square</string>
+    <string name="eraser">Eraser</string>
+</resources>
