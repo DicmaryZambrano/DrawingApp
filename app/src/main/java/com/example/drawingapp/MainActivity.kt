@@ -1,6 +1,5 @@
 package com.example.drawingapp
 
-import android.content.Context
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -51,13 +50,13 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun DrawingScreen(modifier: Modifier,
+fun DrawingScreen(modifier: Modifier = Modifier,
                   lines: MutableList<Line>,
                   selectedColor: MutableState<Color>,
                   selectedStrokeWidth: MutableState<Dp>) {
     //The main drawing screen of the app. There is a tool bar and a color picker
 
-    Column(Modifier.fillMaxSize()) {
+    Column(modifier.fillMaxSize()) {
         //The header of the app
         Box(
             modifier = Modifier
