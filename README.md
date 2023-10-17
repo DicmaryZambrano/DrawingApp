@@ -4,7 +4,7 @@ The program is designed to showcase the fundamental building blocks utilized in 
 It allows the user to interact with the touch screen to draw on the canvas, adjust stroke size, and select stroke color using a simple color picker. 
 The canvas can be cleared by utilizing the eraser button, enabling the user to start fresh.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://www.youtube.com/watch?v=JJE_jMHrUKk)
 
 # Development Environment
 
